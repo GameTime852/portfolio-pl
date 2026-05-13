@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+
 body::-webkit-scrollbar {
   width: 0;
+}
+
+:root {
+  --color1: #281B3D;
+  --color2: #A770FF;
+  --color3: #392657;
+  --color4: #9D69F0;
+  --color5: #5A3D8A;
+  --color-text: #ffffff;
 }
 
 html {
@@ -15,9 +26,23 @@ body {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2em;
-  background: linear-gradient(180deg, #392657 0%, rgba(57, 38, 87, 0.8) 100%);
-  color: #ffffff;
-}
+  background-color: var(--color1);
+  background-image: radial-gradient(var(--color5) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: var(--color-text);
+} 
+
+/* #A770FF */
+/* #281B3D */
+
+
+/* body {
+   
+  background-color: #f0f0f0;
+  background-image: radial-gradient(#bebebe 1px, transparent 1px);
+  background-size: 20px 20px;
+
+} */
 
 h1,
 h2,
@@ -201,7 +226,7 @@ ul {
 }
 
 .skill__info {
-  width: 150px;
+  width: auto;
 }
 
 .skill__button {
